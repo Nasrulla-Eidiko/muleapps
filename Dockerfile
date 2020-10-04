@@ -4,7 +4,7 @@ FROM openjdk:8
 ENV BUILD_DATE=30092020
 ENV MULE_HOME=/opt/mule
 ENV MULE_VERSION=4.3
-
+#This is demo
 RUN mkdir muletirapa
 RUN ls -la
 COPY mule-ee-distribution-standalone-4.3.0.zip /muletirapa
